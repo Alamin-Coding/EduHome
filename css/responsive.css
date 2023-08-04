@@ -1,0 +1,117 @@
+@media (max-width: 575.98px) {
+  /* Common css Start */
+  .section_heading h2 {
+    font-size: 30px;
+  }
+  .section_heading {
+    padding-bottom: 40px;
+  }
+
+  /* Common css end */
+  nav.main-menu {
+    padding: 10px 0;
+    background: black;
+    top: 0;
+  }
+  nav.main-menu .container {
+    position: relative;
+  }
+
+  .menu ul,
+  ol {
+    position: absolute;
+    z-index: 200;
+    width: 80%;
+    left: 0;
+    background: green;
+    padding: 20px;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    display: none;
+  }
+
+  .menu .bars {
+    display: block;
+  }
+
+  /* Banner part start */
+  .slider_1,
+  .slider_2 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .banner .info h3,
+  .banner .info h2 {
+    font-size: 32px;
+  }
+  .banner .info p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  /* Banner part end */
+
+  /* Notice Board part start */
+  section.notice_board_section {
+    padding-top: 80px;
+  }
+  section.notice_board_section .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+
+  .right_side .item h4 {
+    font-size: 20px;
+  }
+  .why_eduhome .right_site_image::after {
+    display: none;
+  }
+  /* Notice Board part end */
+
+  /* Course we offers part start */
+  .course_offers .course_item {
+    margin-bottom: 30px;
+  }
+  .course_offers .course_item:last-child {
+    margin-bottom: 0;
+  }
+  /* Course we offers part end */
+
+
+  /* Upcoming events part start  */
+  .single_event_item {
+    display: inline-block;
+    padding: 20px;
+}
+.single_event_item .date {
+  height: 60px;
+  width: 60px;
+  margin: 0 auto;
+}
+.single_event_item .content {
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 0 0 0;
+  gap: 20px;
+}
+  .single_event_item .content .join_btn {
+    text-align: center;
+}
+  /* Upcoming events part end  */
+
+
+/* Testimonial part start */
+  .testimonial_content {
+    padding: 20px;
+}
+/* Testimonial part end */
+
+
+
+/* Latest Blog part start */
+.blog_item {
+  margin-bottom: 40px;
+}
+/* Latest Blog part end */
+}
